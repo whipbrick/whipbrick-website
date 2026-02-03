@@ -3,74 +3,297 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services Data Analytics - Whipbrick. Architecture data, automatisation, Business Intelligence, gouvernance.">
+    <meta name="keywords" content="data analytics, ETL, power bi, dashboards, automatisation, data quality">
     <title>Services Data Analytics | Whipbrick</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
+    <!-- NAVIGATION -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-logo">
-                <img src="assets/images/logo.png" alt="Whipbrick Logo">
-                <span>whipbrick</span>
+                <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;">
+                    <img src="assets/images/logo.png" alt="Whipbrick Logo">
+                    <span>whipbrick</span>
+                </a>
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html#services">Services</a></li>
-                <li><a href="index.html#expertise">Expertise</a></li>
+                <li><a href="expertise.html">Expertise</a></li>
                 <li><a href="people-analytics.html">People Analytics</a></li>
-                <li><a href="index.html#contact" class="btn-contact">Contact</a></li>
+                <li><a href="contact.html" class="btn-contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- HERO SERVICES -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    Data Analytics<br>
-                    <span class="highlight">Services Généralistes</span>
+                    Services<br>
+                    <span class="highlight">Data Analytics</span>
                 </h1>
                 <p class="hero-subtitle">
-                    Accompagnement complet en analytics, dashboarding, modélisation et automatisation des données.
+                    De l'analyse exploratoire à l'automatisation complète,<br>
+                    je vous accompagne sur l'ensemble de la chaîne de valeur data.
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="services">
+    <!-- OFFRE COMPLÈTE -->
+    <section class="services-complete">
         <div class="container">
-            <h2 class="section-title">Nos Services</h2>
-            
-            <div class="service-block">
-                <h3>Analyse Exploratoire</h3>
-                <p>Découverte, nettoyage et structuration de vos données pour identifier les insights clés.</p>
+            <h2 class="section-title">Offre Complète</h2>
+
+            <!-- Service 1 -->
+            <div class="service-detail">
+                <div class="service-icon">📊</div>
+                <div class="service-detail-content">
+                    <h3>Architecture & Pipeline Data</h3>
+                    <p class="service-intro">
+                        Conception et déploiement d'architectures data robustes, scalables et maintenables.
+                    </p>
+                    <div class="service-deliverables">
+                        <h4>Livrables</h4>
+                        <ul>
+                            <li>Automatisation multi-sources (API, bases de données, fichiers)</li>
+                            <li>Pipelines ETL/ELT avec contrôles qualité intégrés</li>
+                            <li>Orchestration et monitoring (logs, alertes)</li>
+                            <li>Architecture AWS, Azure ou on-premise</li>
+                            <li>Documentation technique complète</li>
+                        </ul>
+                    </div>
+                    <div class="service-example">
+                        <strong>Exemple :</strong> Automatisation de 30+ rapports quotidiens pour Ilona (Assurance) 
+                        avec architecture AWS Lambda → Processus manuel éliminé, source de vérité unique créée
+                    </div>
+                </div>
             </div>
 
-            <div class="service-block">
-                <h3>Dashboarding & Data Visualization</h3>
-                <p>Création de tableaux de bord interactifs avec Power BI ou Tableau pour piloter votre activité.</p>
+            <!-- Service 2 -->
+            <div class="service-detail">
+                <div class="service-icon">📈</div>
+                <div class="service-detail-content">
+                    <h3>Business Intelligence</h3>
+                    <p class="service-intro">
+                        Création de tableaux de bord décisionnels adaptés à votre métier et vos enjeux.
+                    </p>
+                    <div class="service-deliverables">
+                        <h4>Livrables</h4>
+                        <ul>
+                            <li>Dashboards Power BI ou Tableau</li>
+                            <li>Modélisation DAX avancée</li>
+                            <li>Row-Level Security (RLS) pour contrôle d'accès</li>
+                            <li>KPIs alignés avec la stratégie business</li>
+                            <li>Formation des équipes à l'utilisation</li>
+                        </ul>
+                    </div>
+                    <div class="service-example">
+                        <strong>Exemple :</strong> Dashboards pour NAPC (NHS UK) pour évaluer l'impact de nouveaux parcours de soins 
+                        → Livrables utilisés pour décider du déploiement à grande échelle
+                    </div>
+                </div>
             </div>
 
-            <div class="service-block">
-                <h3>Modèles Prédictifs</h3>
-                <p>Développement de modèles d'apprentissage automatique pour anticiper et optimiser.</p>
+            <!-- Service 3 -->
+            <div class="service-detail">
+                <div class="service-icon">🔍</div>
+                <div class="service-detail-content">
+                    <h3>Analyse Exploratoire & Modélisation</h3>
+                    <p class="service-intro">
+                        Extraction d'insights à partir de données brutes pour éclairer vos décisions stratégiques.
+                    </p>
+                    <div class="service-deliverables">
+                        <h4>Livrables</h4>
+                        <ul>
+                            <li>Analyse exploratoire approfondie</li>
+                            <li>Détection de patterns et anomalies</li>
+                            <li>Modèles prédictifs (régression, classification)</li>
+                            <li>Scenario modeling & simulations</li>
+                            <li>Recommandations actionnables</li>
+                        </ul>
+                    </div>
+                    <div class="service-example">
+                        <strong>Exemple :</strong> Estimation de marché (TAM) pour Contexte 
+                        → Exploitation SIREN, catégorisation, modélisation Excel → Vision claire du taux de couverture et priorisation commerciale
+                    </div>
+                </div>
             </div>
 
-            <div class="service-block">
-                <h3>Automatisation & Pipelines ETL</h3>
-                <p>Mise en place de flux automatisés pour transformer et charger vos données en continu.</p>
+            <!-- Service 4 -->
+            <div class="service-detail">
+                <div class="service-icon">🛡️</div>
+                <div class="service-detail-content">
+                    <h3>Gouvernance & Conformité</h3>
+                    <p class="service-intro">
+                        Mise en place de processus de gouvernance pour garantir qualité, sécurité et conformité RGPD.
+                    </p>
+                    <div class="service-deliverables">
+                        <h4>Livrables</h4>
+                        <ul>
+                            <li>Catalogue de données (data dictionary)</li>
+                            <li>Définitions harmonisées des KPIs</li>
+                            <li>Règles de confidentialité par pays (RGPD)</li>
+                            <li>Gestion des accès et anonymisation</li>
+                            <li>Documentation auditable</li>
+                        </ul>
+                    </div>
+                    <div class="service-example">
+                        <strong>Exemple :</strong> Gouvernance multi-pays chez AXA XL (26 pays) 
+                        → Conformité RGPD garantie, architecture pérenne
+                    </div>
+                </div>
             </div>
 
-            <div class="service-block">
-                <h3>Gouvernance des Données</h3>
-                <p>Structuration et qualité des données, conformité RGPD et traçabilité.</p>
+            <!-- Service 5 -->
+            <div class="service-detail">
+                <div class="service-icon">🛠️</div>
+                <div class="service-detail-content">
+                    <h3>Outils Sur Mesure</h3>
+                    <p class="service-intro">
+                        Développement d'applications data sur mesure pour automatiser vos processus métier.
+                    </p>
+                    <div class="service-deliverables">
+                        <h4>Livrables</h4>
+                        <ul>
+                            <li>Applications Streamlit (Python)</li>
+                            <li>Déploiement Docker & CI/CD</li>
+                            <li>Intégration IA dans les workflows</li>
+                            <li>Outils interactifs pour non-techniciens</li>
+                            <li>Support et maintenance</li>
+                        </ul>
+                    </div>
+                    <div class="service-example">
+                        <strong>Exemple :</strong> Salary Transparency Analyzer (outil gratuit) 
+                        → En 5 minutes, catégorisation automatique pour la directive européenne
+                    </div>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service-detail">
+                <div class="service-icon">🎓</div>
+                <div class="service-detail-content">
+                    <h3>Formation & Montée en Compétence</h3>
+                    <p class="service-intro">
+                        Accompagnement de vos équipes pour garantir l'autonomie et la pérennité des solutions.
+                    </p>
+                    <div class="service-deliverables">
+                        <h4>Livrables</h4>
+                        <ul>
+                            <li>Formation Python, SQL, Power BI</li>
+                            <li>Best practices analytics</li>
+                            <li>Documentation utilisateur complète</li>
+                            <li>Sessions de coaching personnalisées</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- MÉTHODOLOGIE -->
+    <section class="methodology">
+        <div class="container">
+            <h2 class="section-title">Méthodologie</h2>
+            <div class="methodology-steps">
+                <div class="method-step">
+                    <div class="method-number">1</div>
+                    <h3>Compréhension des enjeux</h3>
+                    <p>Atelier de cadrage avec les parties prenantes pour définir objectifs, contraintes et livrables attendus.</p>
+                </div>
+                <div class="method-step">
+                    <div class="method-number">2</div>
+                    <h3>Conception de la solution</h3>
+                    <p>Architecture technique, choix des outils, définition des KPIs et des processus de validation.</p>
+                </div>
+                <div class="method-step">
+                    <div class="method-number">3</div>
+                    <h3>Développement & Test</h3>
+                    <p>Développement itératif, validation continue avec les utilisateurs, documentation au fil de l'eau.</p>
+                </div>
+                <div class="method-step">
+                    <div class="method-number">4</div>
+                    <h3>Déploiement & Formation</h3>
+                    <p>Mise en production, formation des équipes, création de la documentation utilisateur.</p>
+                </div>
+                <div class="method-step">
+                    <div class="method-number">5</div>
+                    <h3>Support & Amélioration</h3>
+                    <p>Accompagnement post-déploiement, optimisations, évolutions selon les besoins.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section class="technologies">
+        <div class="container">
+            <h2 class="section-title">Technologies Utilisées</h2>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3>Langages</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">DAX</span>
+                        <span class="tech-badge">M (Power Query)</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Visualisation</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">Tableau</span>
+                        <span class="tech-badge">Streamlit</span>
+                        <span class="tech-badge">Plotly</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Infrastructure</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">AWS (Lambda, S3)</span>
+                        <span class="tech-badge">Azure</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Git / CI/CD</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Bases de données</h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">SQL Server</span>
+                        <span class="tech-badge">Snowflake</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Un projet data en tête ?</h2>
+            <p>Discutons de vos enjeux et des solutions adaptées.</p>
+            <a href="contact.html" class="btn btn-primary">Prendre contact →</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 Whipbrick. Tous droits réservés.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="expertise.html">Expertise</a></li>
+                <li><a href="people-analytics.html">People Analytics</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">RGPD</a></li>
+            </ul>
         </div>
     </footer>
 

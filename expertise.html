@@ -3,91 +3,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expertise | Whipbrick</title>
+    <meta name="description" content="Edward Peek - Consultant Senior Data Analytics. 12+ années d'expérience, AXA XL, EY, expertise People Analytics.">
+    <meta name="keywords" content="consultant data analytics, people analytics, edward peek, power bi, python, data governance">
+    <title>Expertise | Whipbrick - Edward Peek</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
+    <!-- NAVIGATION -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-logo">
-                <img src="assets/images/logo.png" alt="Whipbrick Logo">
-                <span>whipbrick</span>
+                <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;">
+                    <img src="assets/images/logo.png" alt="Whipbrick Logo">
+                    <span>whipbrick</span>
+                </a>
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html#services">Services</a></li>
-                <li><a href="index.html#expertise">Expertise</a></li>
+                <li><a href="expertise.html">Expertise</a></li>
                 <li><a href="people-analytics.html">People Analytics</a></li>
-                <li><a href="index.html#contact" class="btn-contact">Contact</a></li>
+                <li><a href="contact.html" class="btn-contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <section class="hero">
+    <!-- HERO BIO -->
+    <section class="hero hero-bio">
         <div class="container">
-            <div class="hero-content">
+            <div class="bio-header">
                 <h1 class="hero-title">
-                    Mon Expertise<br>
-                    <span class="highlight">12 ans d'expérience data</span>
+                    Edward Peek<br>
+                    <span class="highlight">Consultant Senior en Data & Analytics</span>
                 </h1>
-                <p class="hero-subtitle">
-                    Une approche globale combinant stratégie, technologie et gouvernance.
+                <p class="hero-subtitle bio-tagline">
+                    Transformer des données complexes en décisions claires
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="expertise">
+    <!-- PROPOSITION DE VALEUR -->
+    <section class="value-distinctive">
         <div class="container">
-            <h2 class="section-title">Compétences</h2>
-            <div class="expertise-grid">
-                <div class="expertise-category">
-                    <h4>🔧 Data & Analytics</h4>
-                    <p><strong>Modélisation</strong> · ETL/ELT · <strong>Power BI (DAX, RLS)</strong> · Tableau · Dimensioning</p>
+            <p class="intro-text">
+                J'accompagne les organisations confrontées à des enjeux complexes à structurer leurs données pour <strong>réduire le risque décisionnel</strong>.
+            </p>
+            <p class="intro-text">
+                Mon rôle : comprendre rapidement les enjeux métier, concevoir les fondations data adaptées et livrer des solutions concrètes, 
+                appropriables par les équipes, du COMEX jusqu'au terrain pour traduire les analyses en plans d'action.
+            </p>
+        </div>
+    </section>
+
+    <!-- VALEUR DISTINCTIVE -->
+    <section class="distinctive-value">
+        <div class="container">
+            <h2 class="section-title">Valeur Distinctive</h2>
+            <div class="value-grid-bio">
+                <div class="value-bio-card">
+                    <h3>🏗️ Profil de structuration</h3>
+                    <p>Capacité à intervenir sur des projets complexes pour concevoir de nouvelles méthodologies</p>
                 </div>
-                <div class="expertise-category">
-                    <h4>💻 Engineering</h4>
-                    <p><strong>Python</strong> · <strong>SQL</strong> · Streamlit · Docker · Git · <strong>CI/CD</strong> · APIs</p>
+                <div class="value-bio-card">
+                    <h3>🎯 Réduction du risque décisionnel</h3>
+                    <p>Structuration des indicateurs, alignement des définitions et création de sources de vérité partagées</p>
                 </div>
-                <div class="expertise-category">
-                    <h4>🤖 IA & Automatisation</h4>
-                    <p>Machine Learning · NLP · Intégration d'outils IA dans les workflows data</p>
+                <div class="value-bio-card">
+                    <h3>🔗 Interface dirigeants / équipes techniques</h3>
+                    <p>Facilitateur entre vision stratégique et exécution opérationnelle et traduction en roadmaps data exécutables</p>
                 </div>
-                <div class="expertise-category">
-                    <h4>🛡️ Gouvernance</h4>
-                    <p><strong>Qualité données</strong> · <strong>RGPD</strong> · Anonymisation · Gestion des accès · Traçabilité</p>
-                </div>
-                <div class="expertise-category">
-                    <h4>📊 Stratégie</h4>
-                    <p>Diagnostics analytiques · Roadmaps données · Change management · Conseil exécutif</p>
-                </div>
-                <div class="expertise-category">
-                    <h4>👥 Domaines métier</h4>
-                    <p>RH · Finance · Opérations · Transparence salariale · Régulation</p>
+                <div class="value-bio-card">
+                    <h3>📦 Culture du livrable et de l'autonomie</h3>
+                    <p>Solutions documentées, gouvernées et formation des équipes pour garantir leur appropriation et leur pérennité</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="services">
+    <!-- PARCOURS PROFESSIONNEL -->
+    <section class="career-path">
         <div class="container">
-            <h2 class="section-title">Parcours</h2>
+            <h2 class="section-title">Parcours Professionnel</h2>
             
-            <div class="service-block">
-                <h3>Expérience Transverse</h3>
-                <p>Accompagnement d'organisations multinales et scalups sur des projets critiques en data analytics, transformation digitale et People Analytics. Expertise dans la régulation européenne, la conformité légale et les enjeux de transparence organisationnelle.</p>
-            </div>
+            <div class="timeline">
+                <!-- Whipbrick -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Sep 2024 - Aujourd'hui</div>
+                    <div class="timeline-content">
+                        <h3>Fondateur & Consultant Senior en Data Analytics</h3>
+                        <div class="timeline-company">Whipbrick · Indépendant</div>
+                        <p class="timeline-description">
+                            Missions de structuration data, automatisation, People Analytics et développement d'outils sur mesure.
+                        </p>
+                        
+                        <div class="mission-highlight">
+                            <h4>Missions Réalisées</h4>
+                            
+                            <div class="mission-item">
+                                <strong>Contexte (Veille Stratégique)</strong> — Marketing, Estimation de marché (TAM)
+                                <p>Identification du marché adressable, exploitation SIREN, modélisation Excel → Vision claire du taux de couverture</p>
+                            </div>
 
-            <div class="service-block">
-                <h3>Approche Client</h3>
-                <p>Diagnostique approfondie → Design sur mesure → Déploiement & Adoption → Support long terme</p>
+                            <div class="mission-item">
+                                <strong>Ilona (Assurance)</strong> — Data Architecture & Automatisation
+                                <p>Conception d'une architecture AWS (Lambda), automatisation de 30+ rapports quotidiens, Power BI → Processus manuel éliminé</p>
+                            </div>
+
+                            <div class="mission-item">
+                                <strong>Groupe Suire (Assurance)</strong> — Data Quality & Gouvernance
+                                <p>Réconciliation des sources, scripts Python, dashboards → Taux de complétion 54% → 95%</p>
+                            </div>
+
+                            <div class="mission-item">
+                                <strong>NAPC (Santé - NHS UK)</strong> — Business Intelligence & Évaluation ROI
+                                <p>Évaluation de nouveaux parcours de soins, KPIs, dashboards → Livrables utilisés pour décider du déploiement à grande échelle</p>
+                            </div>
+
+                            <div class="mission-item">
+                                <strong>LaVie (Agroalimentaire)</strong> — Outil de Compensation Salariale
+                                <p>Méthodologie et outil Excel pour répartir le budget d'augmentation → Semaines de travail économisées, outil auditable</p>
+                            </div>
+                        </div>
+
+                        <div class="tech-stack">
+                            <strong>Technologies :</strong> Python · SQL · Power BI · Streamlit · AWS · Git · IA
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AXA XL -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2020 - Sep 2024</div>
+                    <div class="timeline-content">
+                        <h3>Global People Data Analytics Senior Partner</h3>
+                        <div class="timeline-company">AXA XL · Paris, France</div>
+                        <p class="timeline-description">
+                            Responsable de l'ensemble des fonctions analytics et reporting pour les données RH à l'échelle mondiale (26 pays, multiples entités).
+                        </p>
+
+                        <div class="responsibilities">
+                            <h4>Responsabilités</h4>
+                            <ul>
+                                <li>Management d'une équipe multiculturelle de data scientists, ingénieurs et analystes</li>
+                                <li>Collaboration directe avec les dirigeants RH pour promouvoir une culture data-driven</li>
+                                <li>Gouvernance des données : création d'un catalogue de données, définitions harmonisées des KPIs, règles de confidentialité par pays</li>
+                                <li>Conception d'une nouvelle architecture data multi-sources pour homogénéiser les traitements et garantir la qualité</li>
+                            </ul>
+                        </div>
+
+                        <div class="results-section">
+                            <h4>Résultats</h4>
+                            <div class="results-grid">
+                                <div class="result-box">−70% de demandes ad hoc</div>
+                                <div class="result-box">Effort de production ÷6</div>
+                                <div class="result-box">Équipe → partenaire stratégique</div>
+                                <div class="result-box">Architecture pérenne post-départ</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-stack">
+                            <strong>Technologies :</strong> Python · SQL · Power BI · ETL · Machine Learning · Data Governance · RGPD
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EY -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2015 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Business Modelling Manager - Data Analytics</h3>
+                        <div class="timeline-company">EY · London, United Kingdom</div>
+                        <p class="timeline-description">
+                            Consultant spécialisé dans la conception de méthodologies analytiques pour des projets complexes et innovants. 
+                            Profil mobilisé sur les sujets non cadrés, nécessitant de structurer l'approche from scratch.
+                        </p>
+
+                        <div class="responsibilities">
+                            <h4>Missions</h4>
+                            <ul>
+                                <li>Collaboration avec les clients pour définir objectifs, ressources et livrables</li>
+                                <li>Prétraitement des données et automatisation via ETL (Alteryx, Python)</li>
+                                <li>Consolidation de sources hétérogènes (fuzzy-matching, réconciliation multi-formats)</li>
+                                <li>Scenario-modeling sur grandes volumétries (au-delà des capacités Excel)</li>
+                                <li>Data storytelling et restitution aux dirigeants (C-Level)</li>
+                                <li>Formation et montée en compétence des analystes juniors</li>
+                            </ul>
+                        </div>
+
+                        <div class="tech-stack">
+                            <strong>Technologies :</strong> Python · Alteryx · Excel (VBA) · SQL · Tableau
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- COMPÉTENCES TECHNIQUES -->
+    <section class="technical-skills">
+        <div class="container">
+            <h2 class="section-title">Compétences Techniques</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>📊 Data & Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Modélisation</span>
+                        <span class="skill-tag">ETL/ELT</span>
+                        <span class="skill-tag">Power BI (DAX, RLS)</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Analyse exploratoire</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>💻 Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🤖 IA & Automatisation</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Intégration IA workflows</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Automatisation pipelines</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🛡️ Gouvernance</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Qualité des données</span>
+                        <span class="skill-tag">RGPD</span>
+                        <span class="skill-tag">Anonymisation</span>
+                        <span class="skill-tag">Gestion des accès</span>
+                        <span class="skill-tag">Documentation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTEURS -->
+    <section class="sectors">
+        <div class="container">
+            <h2 class="section-title">Secteurs d'Intervention</h2>
+            <div class="sectors-list">
+                <div class="sector-badge">Assurance & Finance</div>
+                <div class="sector-badge">RH & People Analytics</div>
+                <div class="sector-badge">Santé & Données Sensibles</div>
+                <div class="sector-badge">Industrie</div>
+                <div class="sector-badge">Scale-ups</div>
+                <div class="sector-badge">Secteur Public</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA CONTACT -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Discutons de vos enjeux data</h2>
+            <p>Vous avez un projet complexe ? Besoin de structurer vos données ?</p>
+            <a href="contact.html" class="btn btn-primary">Prendre contact →</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 Whipbrick. Tous droits réservés.</p>
+            <ul class="footer-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="people-analytics.html">People Analytics</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">RGPD</a></li>
+            </ul>
         </div>
     </footer>
 
