@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://whipbrick.com/sitemap.xml
