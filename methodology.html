@@ -36,7 +36,9 @@
                 </a>
             </div>
             <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="index.html#services">Services</a></li>
+                <li><a href="methodology.html">Méthodologie</a></li>
                 <li><a href="people-analytics.html">People Analytics</a></li>
                 <li><a href="founder.html">Fondateur</a></li>
                 <li><a href="index.html#contact" class="btn-contact">Contact</a></li>
@@ -44,6 +46,7 @@
         </div>
     </nav>
 
+    <!-- HERO -->
     <section class="hero">
         <div class="container">
             <h1 class="hero-title">
@@ -51,148 +54,248 @@
                 <span class="highlight">Méthodologie</span>
             </h1>
             <p class="hero-subtitle">
-                Transformer vos données en décisions stratégiques grâce à une approche éprouvée.
+                Transformer vos données en décisions stratégiques grâce à une approche éprouvée, structurée et orientée impact.
             </p>
         </div>
     </section>
 
-    <!-- LE DÉFI -->
-    <section class="challenge-section">
+    <!-- VISION 360° — Importé depuis index.html -->
+    <section class="data-flow-dark">
         <div class="container">
-            <h2 class="section-title">Le Défi</h2>
-            <p class="section-intro">
-                Les organisations peinent à implémenter une approche data-driven à cause de :
+            <h2 class="section-title">Vision 360° : De la Donnée à la Décision Stratégique</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem; color: rgba(255,255,255,0.85); font-size: 1.1rem; line-height: 1.7;">
+                <strong>Une chaîne de valeur complète et maîtrisée.</strong> De l'extraction des données brutes à la décision éclairée du COMEX, 
+                nous couvrons l'intégralité du cycle analytics. Un seul interlocuteur, une vision cohérente, des résultats mesurables.
             </p>
-            <div class="challenges-grid">
-                <div class="challenge-card">
-                    <h3>⚠️ Expertise Technique Limitée</h3>
-                    <p>Attentes non satisfaites, retards dans les délais</p>
+            <div class="solution-diagram">
+                <img src="assets/images/data-flow-diagram.png" 
+                     alt="Architecture data flow - De l'extraction ETL à la décision via Business Intelligence et Data Science" 
+                     width="1515" 
+                     height="519" 
+                     loading="lazy">
+            </div>
+            <div class="solution-steps">
+                <div class="solution-step">
+                    <h4>📥 Extraction</h4>
+                    <p>Systèmes internes + données externes</p>
                 </div>
-                <div class="challenge-card">
-                    <h3>📉 Mauvaise Qualité des Données</h3>
-                    <p>Absence de gouvernance, difficulté à créer la confiance</p>
+                <div class="solution-step">
+                    <h4>🔄 ETL</h4>
+                    <p>Transformation et standardisation</p>
                 </div>
-                <div class="challenge-card">
-                    <h3>💰 Solutions Coûteuses</h3>
-                    <p>Licences et maintenance onéreuses, limitations des forfaits</p>
+                <div class="solution-step">
+                    <h4>🗄️ Stockage</h4>
+                    <p>Base de données centralisée</p>
                 </div>
-                <div class="challenge-card">
-                    <h3>🚫 Pas d'Adoption</h3>
-                    <p>Manque d'ergonomie, absence de boucle de feedback</p>
+                <div class="solution-step">
+                    <h4>📊 BI</h4>
+                    <p>Dashboards décisionnels</p>
                 </div>
-                <div class="challenge-card">
-                    <h3>⏱️ Chronophage</h3>
-                    <p>Capacité mobilisée pour tâches manuelles répétitives</p>
+                <div class="solution-step">
+                    <h4>🤖 Data Science</h4>
+                    <p>Analyses prédictives</p>
                 </div>
-                <div class="challenge-card">
-                    <h3>🔒 Outils Restrictifs</h3>
-                    <p>Manque de flexibilité pour améliorations futures</p>
-                </div>
-                <div class="challenge-card">
-                    <h3>📊 Non Scalable</h3>
-                    <p>Limitations connues pour les besoins futurs</p>
+                <div class="solution-step">
+                    <h4>✅ Décisions</h4>
+                    <p>Réduction du risque</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- NOTRE SOLUTION -->
+    <!-- LES CHALLENGES (8 items) -->
+    <section class="challenge-section">
+        <div class="container">
+            <h2 class="section-title">Les Challenges</h2>
+            <p class="section-intro">
+                Les organisations peinent à implémenter une approche data-driven à cause de ces obstacles récurrents :
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 2rem;">
+                <div class="challenge-card">
+                    <h3>⚠️ Expertise Technique Limitée</h3>
+                    <p>Attentes non satisfaites, retards dans les délais de livraison</p>
+                </div>
+                <div class="challenge-card">
+                    <h3>📉 Mauvaise Qualité des Données</h3>
+                    <p>Absence de gouvernance, difficulté à créer la confiance dans les analyses</p>
+                </div>
+                <div class="challenge-card">
+                    <h3>💰 Solutions Coûteuses</h3>
+                    <p>Licences et maintenance onéreuses, limitations des forfaits standards</p>
+                </div>
+                <div class="challenge-card">
+                    <h3>🚫 Pas d'Adoption</h3>
+                    <p>Manque d'ergonomie, absence de boucle de feedback utilisateurs</p>
+                </div>
+                <div class="challenge-card">
+                    <h3>⏱️ Chronophage</h3>
+                    <p>Capacité mobilisée pour tâches manuelles répétitives à faible valeur</p>
+                </div>
+                <div class="challenge-card">
+                    <h3>🔒 Outils Restrictifs</h3>
+                    <p>Manque de flexibilité pour améliorations et évolutions futures</p>
+                </div>
+                <div class="challenge-card">
+                    <h3>📊 Non Scalable</h3>
+                    <p>Limitations connues pour les besoins futurs, architecture non évolutive</p>
+                </div>
+                <div class="challenge-card">
+                    <h3>🎯 Scoping Inadéquat</h3>
+                    <p>Projets qui n'aboutissent pas, perte de ressources R&D sans impact business concret</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LE PARCOURS DATA COMPLET (Scoping + 8 étapes sur 2 lignes) -->
     <section class="our-solution">
         <div class="container">
-            <h2 class="section-title">Notre Solution</h2>
+            <h2 class="section-title">Le Parcours Data Complet</h2>
             <p class="solution-intro">
-                Pour devenir une organisation data-driven, il est essentiel d'établir<br>
-                la bonne structure et les fondations adaptées pour vos données.
+                De l'affinement du besoin business à la décision éclairée : une séquence structurée pour maximiser la valeur de vos données.
             </p>
             
+            <!-- SCOPING EN PREMIÈRE ÉTAPE -->
+            <div style="background: var(--color-primary); color: white; padding: 2rem; border-radius: 8px; margin-bottom: 3rem; text-align: center;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎯</div>
+                <h3 style="margin-bottom: 0.75rem; color: white;">Étape 0 : Scoping & Affinement du Besoin Business</h3>
+                <p style="margin: 0; color: rgba(255,255,255,0.9); font-size: 1.05rem;">
+                    Identifier le "pourquoi", définir le périmètre, valider l'alignement stratégique — fondation de tout projet data réussi.
+                </p>
+            </div>
+
             <div class="solution-diagram">
                 <img src="assets/images/data-flow-diagram.png" alt="Architecture Data Flow" class="diagram-img">
             </div>
 
-            <div class="solution-explanation">
-                <h3>Le Parcours Data Complet</h3>
-                <div class="journey-steps">
-                    <div class="journey-step">
-                        <div class="step-icon">1</div>
-                        <h4>Extraction</h4>
-                        <p>Collecte depuis systèmes internes et sources externes</p>
-                    </div>
-                    <div class="journey-step">
-                        <div class="step-icon">2</div>
-                        <h4>Repository Central</h4>
-                        <p>Stockage sécurisé des données brutes</p>
-                    </div>
-                    <div class="journey-step">
-                        <div class="step-icon">3</div>
-                        <h4>ETL</h4>
-                        <p>Transformation et standardisation</p>
-                    </div>
-                    <div class="journey-step">
-                        <div class="step-icon">4</div>
-                        <h4>Base Structurée</h4>
-                        <p>Data warehouse optimisé</p>
-                    </div>
-                    <div class="journey-step">
-                        <div class="step-icon">5</div>
-                        <h4>Business Intelligence</h4>
-                        <p>Dashboards et rapports</p>
-                    </div>
-                    <div class="journey-step">
-                        <div class="step-icon">6</div>
-                        <h4>Data Science</h4>
-                        <p>Analyses prédictives et ML</p>
-                    </div>
-                    <div class="journey-step">
-                        <div class="step-icon">7</div>
-                        <h4>Meilleures Décisions</h4>
-                        <p>Réduction du risque décisionnel</p>
-                    </div>
+            <div class="journey-steps" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 1.5rem; margin-top: 2rem;">
+                <div class="journey-step">
+                    <div class="step-icon">1</div>
+                    <h4>Extraction</h4>
+                    <p>Collecte depuis systèmes internes et sources externes</p>
+                </div>
+                <div class="journey-step">
+                    <div class="step-icon">2</div>
+                    <h4>Repository Central</h4>
+                    <p>Stockage sécurisé des données brutes</p>
+                </div>
+                <div class="journey-step">
+                    <div class="step-icon">3</div>
+                    <h4>ETL</h4>
+                    <p>Transformation et standardisation</p>
+                </div>
+                <div class="journey-step">
+                    <div class="step-icon">4</div>
+                    <h4>Base Structurée</h4>
+                    <p>Data warehouse optimisé</p>
+                </div>
+            </div>
+
+            <div class="journey-steps" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;">
+                <div class="journey-step">
+                    <div class="step-icon">5</div>
+                    <h4>Business Intelligence</h4>
+                    <p>Dashboards et rapports décisionnels</p>
+                </div>
+                <div class="journey-step">
+                    <div class="step-icon">6</div>
+                    <h4>Data Science</h4>
+                    <p>Analyses prédictives et Machine Learning</p>
+                </div>
+                <div class="journey-step">
+                    <div class="step-icon">7</div>
+                    <h4>Automatisation</h4>
+                    <p>Pipelines et workflows automatisés</p>
+                </div>
+                <div class="journey-step">
+                    <div class="step-icon">8</div>
+                    <h4>Décisions Éclairées</h4>
+                    <p>Réduction du risque décisionnel</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- NOTRE APPROCHE -->
+    <!-- NOTRE APPROCHE COLLABORATIVE — Pyramide Inversée -->
     <section class="our-approach">
         <div class="container">
             <h2 class="section-title">Notre Approche Collaborative</h2>
-            <p class="section-intro">
-                Quand vous travaillez avec nous, nous mobilisons d'abord nos compétences de conseil pour comprendre comment mieux vous servir :
+            <p class="approach-intro">
+                Une démarche structurée en pyramide inversée : de la stratégie à l'exécution collaborative.
             </p>
             
-            <div class="approach-grid">
-                <div class="approach-item">
-                    <h3>🎯 Définir le Périmètre</h3>
-                    <p>Comprendre vos besoins et exigences</p>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-top: 3rem;">
+                <!-- Niveau 1: POURQUOI (le plus large) -->
+                <div style="width: 100%; background: linear-gradient(135deg, #0066cc 0%, #004999 100%); color: white; padding: 2rem; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 2rem; margin-bottom: 0.75rem;">🎯</div>
+                    <h3 style="margin-bottom: 0.5rem; color: white;">1. Identifier le POURQUOI</h3>
+                    <p style="margin: 0; font-size: 1.05rem; opacity: 0.95;">
+                        Comprendre les enjeux business, valider l'alignement stratégique, définir les critères de succès mesurables.
+                    </p>
                 </div>
-                <div class="approach-item">
-                    <h3>❓ Identifier le POURQUOI</h3>
-                    <p>Comprendre ce que signifie le succès</p>
+
+                <!-- Niveau 2: PÉRIMÈTRE + OUTILS (85% largeur, 2 colonnes) -->
+                <div style="width: 85%; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div style="background: linear-gradient(135deg, #0073e6 0%, #0059b3 100%); color: white; padding: 1.75rem; border-radius: 8px;">
+                        <div style="font-size: 1.75rem; margin-bottom: 0.75rem;">📐</div>
+                        <h3 style="margin-bottom: 0.5rem; color: white;">2. Définir le Périmètre</h3>
+                        <p style="margin: 0; font-size: 0.95rem; opacity: 0.9;">
+                            Cadrer les sources, les indicateurs prioritaires, les cas d'usage à fort impact business.
+                        </p>
+                    </div>
+                    <div style="background: linear-gradient(135deg, #0073e6 0%, #0059b3 100%); color: white; padding: 1.75rem; border-radius: 8px;">
+                        <div style="font-size: 1.75rem; margin-bottom: 0.75rem;">🛠</div>
+                        <h3 style="margin-bottom: 0.5rem; color: white;">3. Recommandation d'Outils</h3>
+                        <p style="margin: 0; font-size: 0.95rem; opacity: 0.9;">
+                            Technologies adaptées, architecture évolutive, choix techniques validés par l'usage.
+                        </p>
+                    </div>
                 </div>
-                <div class="approach-item">
-                    <h3>⚠️ Risques & Mitigation</h3>
-                    <p>Identifier les risques clés et plans de mitigation</p>
+
+                <!-- Niveau 3: RISQUES + TIMELINES (70% largeur, 2 colonnes) -->
+                <div style="width: 70%; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div style="background: linear-gradient(135deg, #3399ff 0%, #0066cc 100%); color: white; padding: 1.5rem; border-radius: 8px;">
+                        <div style="font-size: 1.5rem; margin-bottom: 0.75rem;">⚠️</div>
+                        <h3 style="margin-bottom: 0.5rem; color: white;">4. Risques & Mitigation</h3>
+                        <p style="margin: 0; font-size: 0.9rem; opacity: 0.9;">
+                            Identification proactive, plans de contingence, gestion des dépendances critiques.
+                        </p>
+                    </div>
+                    <div style="background: linear-gradient(135deg, #3399ff 0%, #0066cc 100%); color: white; padding: 1.5rem; border-radius: 8px;">
+                        <div style="font-size: 1.5rem; margin-bottom: 0.75rem;">📅</div>
+                        <h3 style="margin-bottom: 0.5rem; color: white;">5. Timelines & Jalons</h3>
+                        <p style="margin: 0; font-size: 0.9rem; opacity: 0.9;">
+                            Planification itérative, livraison progressive, points de validation réguliers.
+                        </p>
+                    </div>
                 </div>
-                <div class="approach-item">
-                    <h3>📅 Timelines & Jalons</h3>
-                    <p>Définir jalons clés et audience cible</p>
-                </div>
-                <div class="approach-item">
-                    <h3>🛠️ Recommandation d'Outils</h3>
-                    <p>Sélectionner les technologies adaptées</p>
-                </div>
-                <div class="approach-item">
-                    <h3>🧪 Proof of Concept</h3>
-                    <p>Validation rapide de l'approche</p>
-                </div>
-                <div class="approach-item">
-                    <h3>🤝 Collaboration</h3>
-                    <p>Travailler ensemble pour garantir le succès</p>
+
+                <!-- Niveau 4: COLLABORATION (55% largeur, étroit) -->
+                <div style="width: 55%; background: linear-gradient(135deg, #66b3ff 0%, #3399ff 100%); color: white; padding: 1.5rem; border-radius: 8px; text-align: center;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.75rem;">🤝</div>
+                    <h3 style="margin-bottom: 0.5rem; color: white;">6. Collaboration Continue</h3>
+                    <p style="margin: 0; font-size: 0.9rem; opacity: 0.9;">
+                        Transfert de compétences, accompagnement terrain, optimisation basée sur les retours utilisateurs.
+                    </p>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <!-- IMPACT SUR L'ENSEMBLE DU PARCOURS DATA -->
+    <section style="background: var(--color-gray); padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title">Impact sur l'Ensemble du Parcours Data</h2>
+            <p style="font-size: 1.1rem; max-width: 900px; margin: 1.5rem auto; text-align: center; line-height: 1.7;">
+                <strong>Pourquoi cette vision globale est essentielle :</strong> Chaque décision technique prise en amont impacte l'ensemble de la chaîne de valeur data. 
+                Un mauvais choix de format de stockage en étape 2 peut bloquer les analyses ML en étape 6. Une extraction non standardisée compromet la fiabilité des dashboards en étape 5.
+            </p>
+            <p style="font-size: 1.05rem; max-width: 900px; margin: 1.5rem auto; text-align: center; line-height: 1.7; color: #555;">
+                <strong>Notre valeur ajoutée :</strong> Nous intervenons avec une compréhension end-to-end du parcours data pour éviter les décisions silotées qui génèrent des coûts cachés et des retravaux coûteux. 
+                Nous anticipons les contraintes futures dès la phase de scoping pour garantir scalabilité, gouvernance et retour sur investissement.
+            </p>
+            
             <div class="data-journey-impact">
-                <h3>Impact sur l'Ensemble du Parcours Data</h3>
                 <div class="impact-timeline">
                     <div class="impact-step">Extraction</div>
                     <div class="impact-arrow">→</div>
@@ -214,161 +317,139 @@
             <h2 class="section-title">Études de Cas</h2>
             
             <!-- Case Study 1 -->
-            <div class="detailed-case">
-                <div class="case-number">01</div>
-                <h3>Créer un Repository Data Centralisé</h3>
+            <div class="detailed-case" style="background: white; padding: 3rem; border-radius: 12px; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem;">
+                    <div style="background: linear-gradient(135deg, #0066cc, #0099ff); color: white; padding: 1rem 1.5rem; border-radius: 8px; font-size: 1.5rem; font-weight: bold;">01</div>
+                    <h3 style="margin: 0; font-size: 1.75rem;">Créer un Repository Data Centralisé</h3>
+                </div>
                 
-                <div class="case-content">
-                    <div class="case-problem">
-                        <h4>Problématique</h4>
-                        <p>Le client ne parvenait pas à identifier de solutions pour créer un guichet unique et obtenir des insights plus rapides à partir de leurs données.</p>
-                    </div>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 0.75rem;">Le Contexte</h4>
+                    <p style="font-size: 1.05rem; line-height: 1.7; color: #333;">
+                        Un groupe international faisait face à un défi majeur : ses équipes consacraient un temps considérable à rassembler manuellement des données provenant de multiples rapports dans des formats variés (xlsx, csv, pdf…). 
+                        Les fichiers volumineux faisaient crasher Excel, et chaque analyse nécessitait d'innombrables vérifications manuelles pour garantir la cohérence. 
+                        L'organisation peinait à obtenir des insights rapides et fiables, et les décisions stratégiques étaient retardées par ces processus laborieux.
+                    </p>
+                </div>
 
-                    <div class="case-challenges">
-                        <h4>Défis Identifiés</h4>
-                        <ul>
-                            <li>Données provenant de différents rapports</li>
-                            <li>Fichiers en formats variés (xlsx, csv…)</li>
-                            <li>Travail manuel requis</li>
-                            <li>Nécessité d'agréger données historiques</li>
-                            <li>Fichiers volumineux → Excel crash</li>
-                            <li>Nombreuses vérifications manuelles</li>
-                        </ul>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 0.75rem;">Notre Solution</h4>
+                    <p style="font-size: 1.05rem; line-height: 1.7; color: #333;">
+                        Nous avons conçu et déployé un <strong>repository data centralisé</strong> avec une architecture ETL complète en Python. 
+                        Le système collecte automatiquement les données depuis tous les dossiers sources, standardise les formats hétérogènes, et les stocke dans une structure cohérente et scalable. 
+                        Ce guichet unique devient la fondation pour tous les outputs actuels et futurs, avec une traçabilité complète des données brutes et transformées. 
+                        La solution supporte des fichiers volumineux, s'exécute rapidement, et peut être facilement mise à jour pour intégrer de nouvelles sources.
+                    </p>
+                    <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+                        <span style="background: #e6f2ff; color: #0066cc; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600;">Python</span>
+                        <span style="background: #e6f2ff; color: #0066cc; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600;">ETL</span>
+                        <span style="background: #e6f2ff; color: #0066cc; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600;">Automatisation</span>
                     </div>
+                </div>
 
-                    <div class="case-solution">
-                        <h4>Solution Proposée</h4>
-                        <div class="solution-tech">
-                            <span class="tech-badge">Python</span>
-                            <span class="tech-badge">ETL</span>
-                            <span class="tech-badge">Automatisation</span>
+                <div style="background: linear-gradient(135deg, #f0f8ff, #e6f2ff); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                    <h4 style="color: var(--color-primary); margin-bottom: 1.5rem; text-align: center;">Résultats Mesurables</h4>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold; color: var(--color-primary); margin-bottom: 0.5rem;">−70%</div>
+                            <p style="margin: 0; font-size: 1.05rem; color: #555;">de demandes ad hoc répétitives</p>
                         </div>
-                        <ul>
-                            <li>Automatisation de la collecte depuis divers dossiers</li>
-                            <li>Standardisation des formats</li>
-                            <li>ETL pour cohérence et stockage structuré</li>
-                            <li>Fondation data pour tous les outputs actuels et futurs</li>
-                        </ul>
-                    </div>
-
-                    <div class="case-benefits">
-                        <h4>Bénéfices</h4>
-                        <div class="benefits-grid">
-                            <div class="benefit">✓ Intégration multi-sources</div>
-                            <div class="benefit">✓ Traçabilité des données brutes et transformées</div>
-                            <div class="benefit">✓ Guichet unique pour tous projets</div>
-                            <div class="benefit">✓ Meilleure cohérence & reproductibilité</div>
-                            <div class="benefit">✓ Support fichiers volumineux & multiformats</div>
-                            <div class="benefit">✓ Hautement scalable</div>
-                            <div class="benefit">✓ Rapide à exécuter</div>
-                            <div class="benefit">✓ Facile à mettre à jour</div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold; color: var(--color-primary); margin-bottom: 0.5rem;">÷6</div>
+                            <p style="margin: 0; font-size: 1.05rem; color: #555;">effort requis pour analyses récurrentes</p>
                         </div>
                     </div>
+                    <p style="margin-top: 1.5rem; text-align: center; font-style: italic; color: #666;">
+                        Guichet unique pour tous les projets data, hautement scalable et reproductible
+                    </p>
                 </div>
             </div>
 
             <!-- Case Study 2 -->
-            <div class="detailed-case">
-                <div class="case-number">02</div>
-                <h3>Dashboards & Scorecards</h3>
+            <div class="detailed-case" style="background: white; padding: 3rem; border-radius: 12px; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem;">
+                    <div style="background: linear-gradient(135deg, #0066cc, #0099ff); color: white; padding: 1rem 1.5rem; border-radius: 8px; font-size: 1.5rem; font-weight: bold;">02</div>
+                    <h3 style="margin: 0; font-size: 1.75rem;">Dashboards & Scorecards Décisionnels</h3>
+                </div>
                 
-                <div class="case-content">
-                    <div class="case-problem">
-                        <h4>Problématique</h4>
-                        <p>Le client peinait à suivre les progrès par rapport aux objectifs annuels ; il cherchait une approche cohérente pour mesurer les KPIs à travers l'organisation.</p>
-                    </div>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 0.75rem;">Le Contexte</h4>
+                    <p style="font-size: 1.05rem; line-height: 1.7; color: #333;">
+                        Une organisation multinationale cherchait à suivre efficacement ses progrès par rapport à des objectifs annuels ambitieux. 
+                        Les données étaient dispersées dans de multiples sources, les KPIs mesurés de manière incohérente selon les équipes, et les dirigeants peinaient à convertir les rapports existants en décisions actionnables. 
+                        Il manquait une approche cohérente et facilement actualisable pour piloter la performance à travers l'ensemble de l'organisation.
+                    </p>
+                </div>
 
-                    <div class="case-challenges">
-                        <h4>Défis Identifiés</h4>
-                        <ul>
-                            <li>Clarifier les questions auxquelles l'outil doit répondre</li>
-                            <li>Facilement accessible et actualisable</li>
-                            <li>Convertir les outputs en décisions actionnables</li>
-                            <li>Multiples sources de données</li>
-                            <li>Intégrer facilement les retours et améliorer</li>
-                        </ul>
-                    </div>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 0.75rem;">Notre Approche</h4>
+                    <p style="font-size: 1.05rem; line-height: 1.7; color: #333;">
+                        Nous avons démarré par une <strong>phase de réflexion collaborative approfondie</strong> pour comprendre le "pourquoi" derrière chaque métrique. 
+                        Ensuite, nous avons co-défini avec les parties prenantes les indicateurs prioritaires, identifié les sources de données fiables, et sélectionné l'outil le plus adapté (Excel vs BI tools selon les cas d'usage). 
+                        Un <strong>Proof of Concept rapide</strong> a permis de valider l'approche en quelques semaines, puis nous avons itéré grâce aux retours utilisateurs pour construire un modèle de données robuste et scalable. 
+                        Le résultat : des dashboards et scorecards mis à jour automatiquement, cohérents mois après mois, et pilotés par les besoins réels du terrain.
+                    </p>
+                </div>
 
-                    <div class="case-solution">
-                        <h4>Solution Proposée</h4>
-                        <div class="solution-steps-inline">
-                            <span>Comprendre le POURQUOI</span>
-                            <span>→</span>
-                            <span>Définir Métriques</span>
-                            <span>→</span>
-                            <span>Identifier Sources</span>
-                            <span>→</span>
-                            <span>Proof of Concept</span>
-                            <span>→</span>
-                            <span>Production</span>
+                <div style="background: linear-gradient(135deg, #f0f8ff, #e6f2ff); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                    <h4 style="color: var(--color-primary); margin-bottom: 1.5rem; text-align: center;">Impact Business</h4>
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; text-align: center;">
+                        <div>
+                            <div style="font-size: 2.5rem; font-weight: bold; color: var(--color-primary); margin-bottom: 0.5rem;">100%</div>
+                            <p style="margin: 0; font-size: 0.95rem; color: #555;">Cohérence des KPIs entre équipes</p>
                         </div>
-                    </div>
-
-                    <div class="case-benefits">
-                        <h4>Bénéfices</h4>
-                        <div class="benefits-grid">
-                            <div class="benefit">✓ Réflexion collaborative</div>
-                            <div class="benefit">✓ Choix du bon outil (Excel vs BI tools)</div>
-                            <div class="benefit">✓ Rapide à produire et tester</div>
-                            <div class="benefit">✓ Piloté par les retours utilisateurs</div>
-                            <div class="benefit">✓ Cohérence mois par mois</div>
-                            <div class="benefit">✓ Modèle de données robuste</div>
-                            <div class="benefit">✓ Scalable</div>
+                        <div>
+                            <div style="font-size: 2.5rem; font-weight: bold; color: var(--color-primary); margin-bottom: 0.5rem;">3 sem.</div>
+                            <p style="margin: 0; font-size: 0.95rem; color: #555;">du PoC à la production</p>
+                        </div>
+                        <div>
+                            <div style="font-size: 2.5rem; font-weight: bold; color: var(--color-primary); margin-bottom: 0.5rem;">Scalable</div>
+                            <p style="margin: 0; font-size: 0.95rem; color: #555;">Modèle réutilisable et évolutif</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Case Study 3 -->
-            <div class="detailed-case">
-                <div class="case-number">03</div>
-                <h3>Techniques ML Avancées - Équité Salariale</h3>
+            <div class="detailed-case" style="background: white; padding: 3rem; border-radius: 12px; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem;">
+                    <div style="background: linear-gradient(135deg, #0066cc, #0099ff); color: white; padding: 1rem 1.5rem; border-radius: 8px; font-size: 1.5rem; font-weight: bold;">03</div>
+                    <h3 style="margin: 0; font-size: 1.75rem;">Machine Learning Avancé — Équité Salariale</h3>
+                </div>
                 
-                <div class="case-content">
-                    <div class="case-problem">
-                        <h4>Problématique</h4>
-                        <p>Le client voulait évaluer si les employés étaient rémunérés équitablement à travers l'organisation et identifier les biais inconscients.</p>
-                    </div>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 0.75rem;">Le Contexte</h4>
+                    <p style="font-size: 1.05rem; line-height: 1.7; color: #333;">
+                        Une organisation souhaitait évaluer si ses employés étaient rémunérés équitablement à travers l'ensemble de ses entités, et identifier d'éventuels biais inconscients dans ses pratiques salariales. 
+                        Les défis étaient nombreux : choisir la méthodologie ML la plus adaptée, obtenir l'adhésion des parties prenantes (RH, Finance, Direction), articuler clairement les limitations du modèle, et garantir que les outputs soient actionnables et compréhensibles par des non-data scientists.
+                    </p>
+                </div>
 
-                    <div class="case-challenges">
-                        <h4>Défis Identifiés</h4>
-                        <ul>
-                            <li>Identifier la méthodologie la plus adaptée</li>
-                            <li>Obtenir l'adhésion des parties prenantes clés</li>
-                            <li>S'assurer que les outputs répondent aux questions</li>
-                            <li>Identifier ressources et outils</li>
-                            <li>Respecter jalons et timelines</li>
-                            <li>Articuler les limitations</li>
-                        </ul>
-                    </div>
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: var(--color-primary); margin-bottom: 0.75rem;">Notre Méthodologie</h4>
+                    <p style="font-size: 1.05rem; line-height: 1.7; color: #333;">
+                        Nous avons adopté une <strong>approche collaborative transparente</strong>, en évitant toute "boîte noire". 
+                        Après avoir sélectionné ensemble la méthodologie statistique et ML appropriée, nous avons construit une timeline claire avec des jalons de validation réguliers. 
+                        Le modèle a été conçu pour générer des outputs actionnables (analyses par département, identification des écarts inexpliqués, recommandations de correction), tout en étant personnalisé aux spécificités de l'organisation. 
+                        Un processus d'amélioration continue basé sur les retours terrain a permis d'affiner le modèle itération après itération, le rendant <strong>réutilisable chaque année</strong> avec un effort marginal.
+                    </p>
+                </div>
 
-                    <div class="case-solution">
-                        <h4>Solution Proposée</h4>
-                        <div class="solution-steps-inline">
-                            <span>Sélection Méthodologie</span>
-                            <span>→</span>
-                            <span>Timeline & Modèle</span>
-                            <span>→</span>
-                            <span>Outputs Actionnables</span>
-                            <span>→</span>
-                            <span>Validation</span>
-                            <span>→</span>
-                            <span>Amélioration Continue</span>
+                <div style="background: linear-gradient(135deg, #f0f8ff, #e6f2ff); padding: 2rem; border-radius: 8px; border-left: 4px solid var(--color-primary);">
+                    <h4 style="color: var(--color-primary); margin-bottom: 1.5rem; text-align: center;">Valeur Créée</h4>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold; color: var(--color-primary); margin-bottom: 0.5rem;">−50%</div>
+                            <p style="margin: 0; font-size: 1.05rem; color: #555;">de ressources RH mobilisées (vs approche manuelle)</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold; color: var(--color-primary); margin-bottom: 0.5rem;">Annuel</div>
+                            <p style="margin: 0; font-size: 1.05rem; color: #555;">Modèle réutilisable avec amélioration continue</p>
                         </div>
                     </div>
-
-                    <div class="case-benefits">
-                        <h4>Bénéfices</h4>
-                        <div class="benefits-grid">
-                            <div class="benefit">✓ Réflexion collaborative, pas de "boîte noire"</div>
-                            <div class="benefit">✓ Moins de ressources nécessaires</div>
-                            <div class="benefit">✓ Timelines respectées et claires</div>
-                            <div class="benefit">✓ Personnalisé à vos besoins</div>
-                            <div class="benefit">✓ Compréhension claire des outputs</div>
-                            <div class="benefit">✓ Réutilisable chaque année</div>
-                            <div class="benefit">✓ Piloté par les retours</div>
-                        </div>
-                    </div>
+                    <p style="margin-top: 1.5rem; text-align: center; font-style: italic; color: #666;">
+                        Méthodologie transparente, timelines respectées, outputs actionnables et compréhensibles par tous
+                    </p>
                 </div>
             </div>
         </div>
@@ -388,7 +469,7 @@
             <ul class="footer-links">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="expertise.html">Expertise</a></li>
+                <li><a href="methodology.html">Méthodologie</a></li>
                 <li><a href="people-analytics.html">People Analytics</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
