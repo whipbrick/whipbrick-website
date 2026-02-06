@@ -2208,3 +2208,256 @@ body {
         display: flex;
     }
 }
+
+/* ====================================
+   HOMEPAGE RESTRUCTURED LAYOUTS
+   ==================================== */
+
+/* Pourquoi Whipbrick - Force 4 columns */
+.why-grid--quad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.why-card--exec {
+    padding: 2rem;
+    background: var(--color-gray);
+    border-radius: 8px;
+    border-left: 4px solid var(--color-black);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.why-card--exec:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.why-card--exec h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+
+.why-card--exec p {
+    color: var(--color-gray-dark);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Expertise Domains - 6 cards (3×2 grid) */
+.expertise-domains-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.domain-card {
+    background: var(--color-white);
+    padding: 2rem;
+    border-radius: 8px;
+    border-bottom: 3px solid var(--color-black);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.domain-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.domain-card .value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.domain-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.domain-card .card-tagline {
+    color: var(--color-gray-dark);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.domain-card .value-list {
+    list-style: none;
+    padding: 0;
+}
+
+.domain-card .value-list li {
+    padding: 0.3rem 0;
+    font-size: 0.9rem;
+    color: var(--color-gray-dark);
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.domain-card .value-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.tech-summary {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    background: var(--color-black);
+    color: var(--color-white);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tech-summary p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.85);
+}
+
+.tech-summary strong {
+    color: var(--color-white);
+}
+
+/* Data Analytics 2×2 Grid */
+.service-grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.service-quad {
+    padding: 1.75rem;
+    background: var(--color-gray);
+    border-radius: 8px;
+    border-top: 3px solid var(--color-black);
+}
+
+.service-quad h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.service-quad p {
+    color: var(--color-gray-dark);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+.quad-tech {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--color-gray-dark);
+    background: var(--color-white);
+    padding: 0.3rem 0.75rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.vision-360-tagline {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--color-gray-dark);
+    padding: 1.5rem;
+    background: var(--color-gray);
+    border-left: 4px solid var(--color-black);
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 1.5rem;
+}
+
+.vision-360-tagline strong {
+    color: var(--color-black);
+    font-size: 1.15rem;
+}
+
+/* Data Flow - Dark Background Section */
+.data-flow-dark {
+    background: #1a1a1a;
+    color: var(--color-white);
+    padding: var(--spacing-xl) 0;
+    margin: var(--spacing-lg) 0 0;
+}
+
+.data-flow-dark .section-title,
+.data-flow-dark h3 {
+    color: var(--color-white);
+}
+
+.data-flow-dark .solution-intro,
+.data-flow-dark p {
+    color: rgba(255,255,255,0.8);
+}
+
+.data-flow-dark .solution-diagram {
+    max-width: 1000px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.data-flow-dark .solution-diagram img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.data-flow-dark .solution-steps {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 2rem auto 0;
+}
+
+.data-flow-dark .solution-step {
+    text-align: center;
+    padding: 1.25rem 0.75rem;
+    background: rgba(255,255,255,0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.data-flow-dark .solution-step h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.data-flow-dark .solution-step p {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.7);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1100px) {
+    .why-grid--quad {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .expertise-domains-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .why-grid--quad {
+        grid-template-columns: 1fr;
+    }
+    .expertise-domains-grid {
+        grid-template-columns: 1fr;
+    }
+    .service-grid-2x2 {
+        grid-template-columns: 1fr;
+    }
+    .data-flow-dark .solution-steps {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .data-flow-dark .solution-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
