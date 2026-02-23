@@ -67,30 +67,43 @@
         </div>
     </nav>
 
-    <!-- HERO -->
-    <section class="hero hero-founder">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Edward Peek</h1>
-                <p class="hero-subtitle">
-                    Fondateur Whipbrick<br>
-                    Expert Data Analytics & People Analytics
-                </p>
-            </div>
-        </div>
-    </section>
-
     <!-- BIO -->
     <section class="founder-bio">
         <div class="container">
-            <div class="bio-grid">
-                <div class="bio-photo">
-                    <img src="assets/images/edward-peek.webp" 
-                         alt="Edward Peek, Fondateur Whipbrick" 
-                         width="400" 
-                         height="400" 
-                         loading="eager">
+            <div class="bio-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+                <!-- Bloc gauche: Edward Peek + Secteurs + Téléchargements -->
+                <div style="display: flex; flex-direction: column; gap: 2rem;">
+                    <div>
+                        <h1 style="font-size: 2.5rem; margin-bottom: 0.5rem; color: #000;">Edward Peek</h1>
+                        <p style="font-size: 1.25rem; color: var(--color-primary); font-weight: 600; margin-bottom: 0.5rem;">Fondateur Whipbrick</p>
+                        <p style="font-size: 1.1rem; color: #666; line-height: 1.5;">Expert Data Analytics & People Analytics</p>
+                    </div>
+
+                    <!-- Téléchargements -->
+                    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                        <a href="docs/bioEd_2026.md" download class="btn btn-primary" style="display: block; text-align: center;">
+                            ↓ Profil de Structuration et Transformation
+                        </a>
+                        <a href="docs/EdPeek_Bio2026.pdf" download class="btn btn-primary" style="display: block; text-align: center;">
+                            ↓ Télécharger ma bio (PDF)
+                        </a>
+                    </div>
+
+                    <!-- Secteurs -->
+                    <div>
+                        <h3 style="margin-bottom: 0.75rem; font-size: 1rem; color: #000;">Secteurs</h3>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;">
+                            <div style="background: #f0f0f0; padding: 0.75rem; border-radius: 6px; text-align: center; font-size: 0.9rem;">🏦 Assurance & Finance</div>
+                            <div style="background: #f0f0f0; padding: 0.75rem; border-radius: 6px; text-align: center; font-size: 0.9rem;">👥 RH & People Analytics</div>
+                            <div style="background: #f0f0f0; padding: 0.75rem; border-radius: 6px; text-align: center; font-size: 0.9rem;">🏥 Santé & Données Sensibles</div>
+                            <div style="background: #f0f0f0; padding: 0.75rem; border-radius: 6px; text-align: center; font-size: 0.9rem;">🏭 Industrie</div>
+                            <div style="background: #f0f0f0; padding: 0.75rem; border-radius: 6px; text-align: center; font-size: 0.9rem;">🚀 Scale-ups</div>
+                            <div style="background: #f0f0f0; padding: 0.75rem; border-radius: 6px; text-align: center; font-size: 0.9rem;">🏛️ Secteur Public</div>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Bloc droit: Bio texte + Valeurs distinctives -->
                 <div class="bio-content">
                     <h2>Transformer des données complexes en décisions claires</h2>
                     <p class="lead">
@@ -101,23 +114,152 @@
                         Mon rôle : comprendre rapidement les enjeux métier, concevoir les fondations data adaptées et livrer des solutions concrètes, appropriables par les équipes, du COMEX jusqu'au terrain pour traduire les analyses en plans d'action.
                     </p>
 
-                    <h3>Valeur Distinctive</h3>
-                    <ul class="bio-focus">
-                        <li><strong>Profil de structuration</strong> : Capacité à intervenir sur des projets complexes pour concevoir de nouvelles méthodologies</li>
-                        <li><strong>Réduction du risque décisionnel</strong> : Structuration des indicateurs, alignement des définitions et création de sources de vérité partagées</li>
-                        <li><strong>Interface dirigeants / équipes techniques</strong> : Facilitateur entre vision stratégique et exécution opérationnelle</li>
-                        <li><strong>Culture du livrable et de l'autonomie</strong> : Solutions documentées, gouvernées et formation des équipes pour garantir leur appropriation et leur pérennité</li>
-                    </ul>
+                    <!-- Valeurs Distinctives en grille 2x2 -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem; margin-bottom: 2rem;">
+                        <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 8px; border-left: 3px solid var(--color-primary);">
+                            <h4 style="margin-bottom: 0.75rem; color: var(--color-primary);">Profil de Structuration</h4>
+                            <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">Capacité à intervenir sur des projets complexes pour concevoir de nouvelles méthodologies</p>
+                        </div>
+                        <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 8px; border-left: 3px solid var(--color-primary);">
+                            <h4 style="margin-bottom: 0.75rem; color: var(--color-primary);">Réduction du Risque Décisionnel</h4>
+                            <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">Structuration des indicateurs, alignement des définitions et création de sources de vérité partagées</p>
+                        </div>
+                        <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 8px; border-left: 3px solid var(--color-primary);">
+                            <h4 style="margin-bottom: 0.75rem; color: var(--color-primary);">Interface Dirigeants / Équipes Techniques</h4>
+                            <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">Facilitateur entre vision stratégique et exécution opérationnelle</p>
+                        </div>
+                        <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 8px; border-left: 3px solid var(--color-primary);">
+                            <h4 style="margin-bottom: 0.75rem; color: var(--color-primary);">Culture du Livrable</h4>
+                            <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">Solutions documentées, gouvernées et formation des équipes pour garantir appropriation et pérennité</p>
+                        </div>
+                    </div>
 
-                    <div class="bio-cta">
+                    <!-- CTA -->
+                    <div class="bio-cta" style="display: flex; gap: 1rem;">
                         <a href="https://www.linkedin.com/in/peekedward/" target="_blank" rel="noopener" class="btn btn-primary">
-                            Voir mon profil LinkedIn →
+                            Profil LinkedIn →
                         </a>
                         <a href="mailto:edpeek@whipbrick.com" class="btn btn-outline">
                             Me contacter
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERTISE & LIVRABLES -->
+    <section class="founder-expertise">
+        <div class="container">
+            <h2 class="section-title">Expertise & Livrables</h2>
+            <div class="expertise-cards">
+                <div class="expertise-card-founder">
+                    <h3>🔧 Architecture & Pipeline Data</h3>
+                    <p><strong>Livrables :</strong></p>
+                    <ul>
+                        <li>Automatisation multi-sources</li>
+                        <li>Data Quality frameworks</li>
+                        <li>Pipelines résilients et scalables</li>
+                    </ul>
+                </div>
+
+                <div class="expertise-card-founder">
+                    <h3>📊 Business Intelligence</h3>
+                    <p><strong>Livrables :</strong></p>
+                    <ul>
+                        <li>Dashboards décisionnels Power BI/Tableau</li>
+                        <li>Gouvernance BI et RLS</li>
+                        <li>Reporting automatisé</li>
+                    </ul>
+                </div>
+
+                <div class="expertise-card-founder">
+                    <h3>🛡️ Gouvernance & Conformité</h3>
+                    <p><strong>Livrables :</strong></p>
+                    <ul>
+                        <li>RGPD et données sensibles</li>
+                        <li>Référentiels communs et data dictionaries</li>
+                        <li>Anonymisation et pseudonymisation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MISSIONS & IMPACTS + COMPETENCES TECHNIQUES -->
+    <section class="founder-impacts-skills">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+                <!-- Colonne gauche: Missions & Impact -->
+                <div>
+                    <h2 class="section-title" style="margin-top: 0;">Missions & Impact</h2>
+                    <div class="impacts-grid" style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+                        <div class="impact-card">
+                            <h3>🎯 Fiabilisation des données</h3>
+                            <p>Données réconciliées, règles claires, confiance retrouvée dans les indicateurs</p>
+                        </div>
+                        <div class="impact-card">
+                            <h3>⚡ Automatisation des rapports</h3>
+                            <p>Passage de 30+ fichiers multi-sources à des pipelines automatisés, productivité accrue</p>
+                        </div>
+                        <div class="impact-card">
+                            <h3>👥 People Analytics & IA</h3>
+                            <p>Analyses RH accélérées et consolidées, pilotage renforcé par l'analytique</p>
+                        </div>
+                        <div class="impact-card">
+                            <h3>📊 Analyse de marché</h3>
+                            <p>Dimensionnement du marché et plan d'action commercial data-driven</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Colonne droite: Compétences Techniques -->
+                <div>
+                    <h2 class="section-title" style="margin-top: 0;">Compétences Techniques</h2>
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h3>Data & Analytics</h3>
+                            <p>Modélisation · ETL/ELT · Power BI (DAX, RLS) · Tableau</p>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Engineering</h3>
+                            <p>Python · SQL · Streamlit · Docker · Git · CI/CD</p>
+                        </div>
+                        <div class="skill-category">
+                            <h3>IA & Automatisation</h3>
+                            <p>Intégration d'outils IA dans les workflows data</p>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Gouvernance</h3>
+                            <p>Qualité · RGPD · Anonymisation · Gestion des accès</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHILOSOPHIE -->
+    <section class="founder-philosophy">
+        <div class="container">
+            <h2 class="section-title">Philosophie</h2>
+            <div class="philosophy-content">
+                <blockquote>
+                    <p>
+                        "Les meilleures décisions se prennent avec les bonnes données, 
+                        structurées de la bonne manière, au bon moment."
+                    </p>
+                </blockquote>
+                <p>
+                    Ma mission avec Whipbrick est de rendre l'analytique accessible et actionnable. 
+                    Pas de jargon technique inutile, pas de sur-ingénierie. Des solutions pragmatiques 
+                    qui créent de la valeur rapidement.
+                </p>
+                <p>
+                    Sur la transparence salariale, je crois fermement que c'est un levier puissant pour 
+                    l'équité et la performance. C'est pourquoi j'ai développé des outils gratuits pour 
+                    aider les entreprises à se préparer dès maintenant.
+                </p>
             </div>
         </div>
     </section>
@@ -173,154 +315,6 @@
         </div>
     </section>
 
-    <!-- MISSIONS & IMPACTS -->
-    <section class="founder-impacts">
-        <div class="container">
-            <h2 class="section-title">Missions & Impacts</h2>
-            <div class="impacts-grid">
-                <div class="impact-card">
-                    <h3>🎯 Fiabilisation des données</h3>
-                    <p>Données réconciliées, règles claires, confiance retrouvée dans les indicateurs</p>
-                </div>
-                <div class="impact-card">
-                    <h3>⚡ Automatisation des rapports</h3>
-                    <p>Passage de 30+ fichiers multi-sources à des pipelines automatisés, productivité accrue</p>
-                </div>
-                <div class="impact-card">
-                    <h3>👥 People Analytics & IA</h3>
-                    <p>Analyses RH accélérées et consolidées, pilotage renforcé par l'analytique</p>
-                </div>
-                <div class="impact-card">
-                    <h3>📊 Analyse de marché</h3>
-                    <p>Dimensionnement du marché et plan d'action commercial data-driven</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- EXPERTISES -->
-    <section class="founder-expertise">
-        <div class="container">
-            <h2 class="section-title">Expertise & Livrables</h2>
-            <div class="expertise-cards">
-                <div class="expertise-card-founder">
-                    <h3>🔧 Architecture & Pipeline Data</h3>
-                    <p><strong>Livrables :</strong></p>
-                    <ul>
-                        <li>Automatisation multi-sources</li>
-                        <li>Data Quality frameworks</li>
-                        <li>Pipelines résilients et scalables</li>
-                    </ul>
-                </div>
-
-                <div class="expertise-card-founder">
-                    <h3>📊 Business Intelligence</h3>
-                    <p><strong>Livrables :</strong></p>
-                    <ul>
-                        <li>Dashboards décisionnels Power BI/Tableau</li>
-                        <li>Gouvernance BI et RLS</li>
-                        <li>Reporting automatisé</li>
-                    </ul>
-                </div>
-
-                <div class="expertise-card-founder">
-                    <h3>🛡️ Gouvernance & Conformité</h3>
-                    <p><strong>Livrables :</strong></p>
-                    <ul>
-                        <li>RGPD et données sensibles</li>
-                        <li>Référentiels communs et data dictionaries</li>
-                        <li>Anonymisation et pseudonymisation</li>
-                    </ul>
-                </div>
-
-                <div class="expertise-card-founder featured">
-                    <h3>🛠️ Outils sur Mesure</h3>
-                    <p><strong>Livrables :</strong></p>
-                    <ul>
-                        <li>Applications Streamlit (ex: Salary Transparency Analyzer)</li>
-                        <li>Déploiement Docker + CI/CD</li>
-                        <li>Solutions data personnalisées</li>
-                    </ul>
-                    <!-- SCREENSHOT PLACEHOLDER : Salary Transparency Analyzer -->
-                    <div class="screenshot-placeholder screenshot-tool">
-                        <div class="screenshot-icon">📸</div>
-                        <div class="screenshot-label">Capture du Salary Transparency Analyzer</div>
-                        <div class="screenshot-hint">Remplacer par : screenshot de l'interface Streamlit</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTEURS -->
-    <section class="founder-sectors">
-        <div class="container">
-            <h2 class="section-title">Secteurs d'Intervention</h2>
-            <div class="sectors-grid">
-                <div class="sector-tag">🏦 Assurance & Finance</div>
-                <div class="sector-tag">👥 RH & People Analytics</div>
-                <div class="sector-tag">🏥 Santé & Données Sensibles</div>
-                <div class="sector-tag">🏭 Industrie</div>
-                <div class="sector-tag">🚀 Scale-ups</div>
-                <div class="sector-tag">🏛️ Secteur Public</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- COMPETENCES TECHNIQUES -->
-    <section class="founder-skills">
-        <div class="container">
-            <h2 class="section-title">Compétences Techniques</h2>
-            <div class="skills-categories">
-                <div class="skill-category">
-                    <h3>Data & Analytics</h3>
-                    <p>Modélisation · ETL/ELT · Power BI (DAX, RLS) · Tableau</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Engineering</h3>
-                    <p>Python · SQL · Streamlit · Docker · Git · CI/CD</p>
-                </div>
-                <div class="skill-category">
-                    <h3>IA & Automatisation</h3>
-                    <p>Intégration d'outils IA dans les workflows data</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Gouvernance</h3>
-                    <p>Qualité · RGPD · Anonymisation · Gestion des accès</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- PHILOSOPHIE -->
-    <section class="founder-philosophy">
-        <div class="container">
-            <h2 class="section-title">Philosophie</h2>
-            <div class="philosophy-content">
-                <blockquote>
-                    <p>
-                        "Les meilleures décisions se prennent avec les bonnes données, 
-                        structurées de la bonne manière, au bon moment."
-                    </p>
-                </blockquote>
-                <p>
-                    Ma mission avec Whipbrick est de rendre l'analytique accessible et actionnable. 
-                    Pas de jargon technique inutile, pas de sur-ingénierie. Des solutions pragmatiques 
-                    qui créent de la valeur rapidement.
-                </p>
-                <p>
-                    Sur la transparence salariale, je crois fermement que c'est un levier puissant pour 
-                    l'équité et la performance. C'est pourquoi j'ai développé des outils gratuits pour 
-                    aider les entreprises à se préparer dès maintenant.
-                </p>
-            </div>
-        </div>
-    </section>
-
     <!-- CONTACT -->
     <section class="founder-contact">
         <div class="container">
@@ -350,6 +344,8 @@
                     <li><a href="services.html">Services</a></li>
                     <li><a href="people-analytics.html">People Analytics</a></li>
                     <li><a href="founder.html">Fondateur</a></li>
+                    <li><a href="mentions-legales.html">Mentions légales & RGPD</a></li>
+                    <li><a href="sitemap.xml">Sitemap</a></li>
                 </ul>
                 <p class="footer-copy">&copy; 2026 Whipbrick. Tous droits réservés.</p>
             </div>
