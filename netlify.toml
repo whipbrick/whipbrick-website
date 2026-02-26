@@ -1,9 +1,2 @@
 [build]
   publish = "."
-
-# Redirect www to non-www (SEO: canonical URL)
-[[redirects]]
-  from = "https://www.whipbrick.com/*"
-  to = "https://whipbrick.com/:splat"
-  status = 301
-  force = true
